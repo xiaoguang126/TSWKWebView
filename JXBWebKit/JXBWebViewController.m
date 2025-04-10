@@ -86,7 +86,6 @@ static NSString *POSTRequest = @"POST";
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    _webView.frame = self.view.bounds;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
